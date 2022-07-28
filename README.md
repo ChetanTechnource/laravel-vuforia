@@ -4,7 +4,7 @@ Vuforia web service API for Laravel
 ## Install
 
 ```shell
-composer require ChetanTechnource/laravel-vuforia
+composer require chetantechnource/laravel-vuforia
 ```
 
 Service provider
