@@ -1,0 +1,23 @@
+{
+    "name": "chetantechnource/laravel-vuforia",
+    "description": "Vuforia web service api for laravel",
+    "keywords": ["laravel", "vuforia", "ar", "augmented-reality", "api"],
+    "homepage": "https://github.com/chetantechnource/laravel-vuforia",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sean Cheung",
+            "email": "theoxuanx@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0", 
+        "illuminate/support": ">=9.22.1",
+        "pear/http_request2": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Panoscape\\Vuforia\\": "src/"
+        }
+    }
+}
