@@ -1,8 +1,8 @@
 {
-    "name": "ChetanTechnource/laravel-vuforia",
+    "name": "chetantechnource/laravel-vuforia",
     "description": "Vuforia web service api for laravel",
     "keywords": ["laravel", "vuforia", "ar", "augmented-reality", "api"],
-    "homepage": "https://github.com/ChetanTechnource/laravel-vuforia",
+    "homepage": "https://github.com/chetantechnource/laravel-vuforia",
     "license": "MIT",
     "authors": [
         {
