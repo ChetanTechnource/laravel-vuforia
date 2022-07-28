@@ -4,7 +4,7 @@ Vuforia web service API for Laravel
 ## Install
 
 ```shell
-composer require panoscape/laravel-vuforia
+composer require ChetanTechnource/laravel-vuforia
 ```
 
 Service provider
@@ -267,4 +267,4 @@ abstract class VuforiaNotification extends Notification
 ```
 
 ## Documentation
-See [Wiki](https://github.com/seancheung/laravel-vuforia/wiki)
+See [Wiki](https://github.com/ChetanTechnource/laravel-vuforia/wiki)

@@ -1,13 +1,13 @@
 {
-    "name": "chetantechnource/laravel-vuforia",
+    "name": "ChetanTechnource/laravel-vuforia",
     "description": "Vuforia web service api for laravel",
     "keywords": ["laravel", "vuforia", "ar", "augmented-reality", "api"],
-    "homepage": "https://github.com/chetantechnource/laravel-vuforia",
+    "homepage": "https://github.com/ChetanTechnource/laravel-vuforia",
     "license": "MIT",
     "authors": [
         {
-            "name": "Sean Cheung",
-            "email": "theoxuanx@gmail.com"
+            "name": "Chetan Patel",
+            "email": "chetan.technource@gmail.com"
         }
     ],
     "require": {
