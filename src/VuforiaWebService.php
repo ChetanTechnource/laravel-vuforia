@@ -8,6 +8,7 @@ use Exception;
 use JsonSerializable;
 use HTTP_Request2;
 use HTTP_Request2_Exception;
+use Illuminate\Support\Arr;
 
 /**
 * Vuforia Cloud API Service
@@ -87,14 +88,14 @@ class VuforiaWebService
     */
     function __construct($config)
     {
-        $this->targets = array_get($config, 'url.targets');
-        $this->duplicates = array_get($config, 'url.duplicates');
-        $this->summary = array_get($config, 'url.summary');
-        $this->accessKey = array_get($config, 'credentials.access_key');
-        $this->secretKey = array_get($config, 'credentials.secret_key');
-        $this->namingRule = array_get($config, 'naming_rule');
-        $this->maxImageSize = array_get($config, 'max_image_size');
-        $this->maxMetaSize = array_get($config, 'max_meta_size');
+        $this->targets = Arr::get($config, 'url.targets');
+        $this->duplicates = Arr::get($config, 'url.duplicates');
+        $this->summary = Arr::get($config, 'url.summary');
+        $this->accessKey = Arr::get($config, 'credentials.access_key');
+        $this->secretKey = Arr::get($config, 'credentials.secret_key');
+        $this->namingRule = Arr::get($config, 'naming_rule');
+        $this->maxImageSize = Arr::get($config, 'max_image_size');
+        $this->maxMetaSize = Arr::get($config, 'max_meta_size');
     }
 
     /**
