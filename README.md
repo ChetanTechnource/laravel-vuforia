@@ -1,3 +1,6 @@
+CREDIT TO 
+    https://github.com/seancheung/laravel-vuforia#readme
+
 # Laravel-Vuforia
 Vuforia web service API for Laravel
 
