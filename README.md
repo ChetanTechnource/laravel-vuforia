@@ -28,7 +28,7 @@ Facades
 ```php
 'aliases' => [
     ...
-    'VWS' => Panoscape\Vuforia\Facades\VuforiaWebService::class,
+    'VWS' => Panoscape\Vuforia\Facades\VuforiaWebServiceFacade::class,
 ];
 ```
 
